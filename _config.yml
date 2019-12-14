@@ -1,0 +1,70 @@
+## Org: https://youssefraafatnasry.github.io/portfolYOU/docs/
+## Docs: https://youssefraafatnasry.github.io/portfolYOU/docs/
+
+### Site Settings ###
+title               : Ankur Singh 
+description         : >-                               # >- means to ignore newlines until "url:"
+                      I prefer coffee over tea,
+                      Jupyter Notebook over IDEs
+                      and never take peoples opinion (DATA is my thing).
+
+url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : Ankur-singh.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+# remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+
+### Author Info ###
+author:
+  name              : Ankur Singh
+  image             : assets/ankur.jpg # https://bit.ly/2KCvgVJ
+  email             : as.ankursingh3.1@gmail.com
+  github            : Ankur-singh
+  twitter           : I_ankursingh
+  instagram         : ankursingh_1234
+  linkedin          : ankur-singh-ml
+# medium            : your_username
+# behance           : your_username
+# dribbble          : your_username
+# facebook          : your_username
+# gitlab            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+
+### Posts Permalink ###
+permalink: articles/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
