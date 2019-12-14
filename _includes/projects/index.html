@@ -1,39 +1,43 @@
-<!-- Remote Projects JS -->
-<script src="{{ '/assets/js/remote-projects.js' | relative_url }}"></script>
+<br>
+<br><br><br>
+<h5 align=center>Coming Soon ...</h5>
 
-<div class="card-columns m-3 mt-5">
+<!-- Remote Projects JS -->
+<!-- <script src="{{ '/assets/js/remote-projects.js' | relative_url }}"></script> -->
+
+<!-- <div class="card-columns m-3 mt-5"> -->
 
   <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
+  <!-- {% for remote_project in page.remote_projects %} -->
 
-    {% for repo in site.github.public_repositories %}
+    <!-- {% for repo in site.github.public_repositories %}
       {% if remote_project == repo.name %}
         {% assign project = repo %}
       {% endif %}
-    {% endfor %}
+    {% endfor %} -->
 
-    {% assign words = project.name | split: '-' %}
+    <!-- {% assign words = project.name | split: '-' %}
     {% capture titlecase %}
       {% for word in words %}
         {{ word | capitalize }}
       {% endfor %}
-    {% endcapture %}
+    {% endcapture %} -->
 
-    {% assign project_type = "remote" %}
+    <!-- {% assign project_type = "remote" %}
     {% assign project_id   = project.name %}
     {% assign project_img  = false %}
     {% assign project_name = titlecase %}
     {% assign project_desc = project.description %}
-    {% assign project_url  = project.html_url %}
+    {% assign project_url  = project.html_url %} -->
 
-    {% include projects/project-card.html %}
+    <!-- {% include projects/project-card.html %} -->
 
-    <script>get_tools("{{ project_id }}")</script>
+    <!-- <script>get_tools("{{ project_id }}")</script> -->
 
-  {% endfor %}
+  <!-- {% endfor %} -->
 
   <!-- Local Projects -->
-  {% for project in site.projects %}
+  <!-- {% for project in site.projects %}
 
     {% assign project_type  = "local" %}
     {% assign project_id    =  project.name | slugify %}
@@ -52,4 +56,4 @@
 
   {% endfor %}
 
-</div>
+</div> -->

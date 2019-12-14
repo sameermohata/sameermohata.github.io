@@ -3,10 +3,10 @@
 
 ### Site Settings ###
 title               : Sameer Mohata 
-description         : >-                               # >- means to ignore newlines until "url:"
-                      I prefer coffee over tea,
-                      Jupyter Notebook over IDEs
-                      and never take peoples opinion (DATA is my thing).
+# description         : >-                               # >- means to ignore newlines until "url:"
+                      # I prefer coffee over tea,
+                      # Jupyter Notebook over IDEs
+                      # and never take peoples opinion (DATA is my thing).
 
 url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
@@ -34,15 +34,6 @@ author:
 # twitch            : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
-
-
-### Pagination ###
-paginate: 6
-paginate_path: "/articles/page-:num/"
-
-
-### Posts Permalink ###
-permalink: articles/:title
 
 
 ### Collections ###
