@@ -11,11 +11,6 @@ instagram:
   icon  : fab fa-instagram
   color : 3b5998
 
-github:
-  url   : https://www.github.com/
-  icon  : fab fa-github
-  color : 333333
-
 linkedin:
   url   : https://www.linkedin.com/in/
   icon  : fab fa-linkedin-in
