@@ -14,7 +14,7 @@ A young entrepreneur with 4 years of experience in Artificial Intelligence and P
 I spend most of my waking hours developing ML projects, reading & implementing research papers, contributing to open-source projects and participating in Kaggle Data Science competitions (by the time you reading it, I might have become a Kaggle Competition Expert). At other times you will find me reading books (mostly biographies) or exercising.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Software Skills" source=site.data.software-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
