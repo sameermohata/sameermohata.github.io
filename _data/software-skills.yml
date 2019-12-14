@@ -1,0 +1,20 @@
+- name: Mod-Flow
+  percentage: 90
+  color: dark
+
+- name: Auto-CAD
+  percentage: 85
+  color: success
+
+- name: Primavera
+  percentage: 50
+  color: danger
+
+- name: Autodesk Revit
+  percentage: 50
+  color: 
+
+- name: Microsoft Project
+  percentage: 70
+  color: info
+

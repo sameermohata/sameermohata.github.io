@@ -1,7 +1,3 @@
-- name: Canva
-  percentage: 85
-  color: info
-
 - name: MS Word
   percentage: 75
   color: danger
@@ -10,10 +6,10 @@
   percentage: 70
   color: warning
 
-- name: Wordpress
+- name: MS PowerPoint
   percentage: 80
   color: dark
 
-- name: CRM tools
-  percentage: 85
+- name: Material Science and Human Resource Management in Construction
+  percentage: 75
   color:
